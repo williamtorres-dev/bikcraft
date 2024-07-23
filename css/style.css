@@ -1,8 +1,18 @@
+/* Global */
 @import "./global/reset.css";
+@import "./utilitarios/tipografia.css";
+@import "./utilitarios/cores.css";
+
 @import "./global/header.css";
 
-/* Utilitarios */
+/* Utilitários */
 @import "./utilitarios/componentes.css";
 
 /* Home */
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+
+/* Bicicletas */
+@import "./bicicletas/bicicletas-lista.css";
