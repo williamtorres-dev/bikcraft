@@ -81,8 +81,13 @@
 
 /* Titulo Páginas Internas */
 .titulo_bg {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--cor-11);
+}
+
+.titulo {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 40px;
 }
 
 .titulo p {
