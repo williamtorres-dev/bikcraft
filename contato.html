@@ -8,8 +8,10 @@
   <title>Contato | Bikcraft</title>
   <meta name="description" content="Contato.">
 
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <script>document.documentElement.classList.add('js');</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,7 +53,7 @@
         <address class="contato_meios font-2-s cor-4">
           <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
           <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
-          <a href="tel:+5577998778686">+55 77 99877-8686</a>
+          <a class="telefone" data-clipboard-text="+5577998778686" href="tel:+5577998778686">+55 77 99877-8686</a>
         </address>
         <div class="contato_redes">
           <a href="./">
@@ -161,6 +163,7 @@
       <p class="footer_copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/clipboard.min.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

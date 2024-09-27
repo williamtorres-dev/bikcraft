@@ -64,3 +64,8 @@ galeria.forEach(eventosGaleria);
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
+
+// Clipboard
+if (window.ClipboardJS) {
+  new ClipboardJS(".telefone");
+}
